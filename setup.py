@@ -5,7 +5,7 @@ def data():
     lines = [setup.readline(),setup.readline()]
     setup.close()
     if os.path.exists("setup.txt"):
-    os.remove("setup.txt")
+        os.remove("setup.txt")
     create = open("setup.txt", "w+")
     create.close()
     create = open("setup.txt", "a")
